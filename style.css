@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+}
+
+.calc {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    background-color: rgb(121, 121, 121);
+}
+
+.screen {
+    display: flex;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 50px;
+    border: solid 2px black;
+    border-radius: 5px;
+    background-color: rgb(109, 84, 84);
+    align-items: center;
+    justify-content: flex-end;
+    padding: 5px;
+    font-size: 28px;
+    font-family: 'Sony Sketch EF', sans-serif;
+    font-style: italic;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    
+    width: 200px;
+    box-sizing: border-box;
+    margin: 5px;
+    padding: 5px;
+    
+    align-items: flex-start;
+    justify-content: center;
+
+}
+
+button {
+    width: 35px;
+    height: 35px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: solid  1px;
+    text-align: center;
+}
+
+.operator, .dot, .equal, .plusminus {
+    background-color: coral;
+}
+.operand {
+    background-color: darkcyan;
+}
